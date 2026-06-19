@@ -6,7 +6,11 @@ The design direction is intentionally cyber-themed: dark UI, green terminal acce
 
 ## Live Website
 
-The production site is linked in the repository sidebar under **About**.
+The production site is available at:
+
+```text
+https://zafeerabboobakar.com
+```
 
 ## Repository
 
