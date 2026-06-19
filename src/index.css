@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: 'Courier New', monospace;
+  color: #00ff00;
+}
+
+.matrix-glow {
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+html {
+  scroll-behavior: smooth;
+}

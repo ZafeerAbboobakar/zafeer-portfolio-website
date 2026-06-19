@@ -1,0 +1,24 @@
+/* loader.css */
+.decrypt-loader {
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #00ff00;
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+}
+
+.decrypt-loader::after {
+  content: '|';
+  position: absolute;
+  right: 0;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
